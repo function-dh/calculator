@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import "common.css";
+
+/* 공통 설정 영역 */
+html, body{height: 100%; background-color: #212121;}
+.wrap{position: relative; height: 100%;}
+.calWrap{height: 100%; min-height: 360px; padding: 30px 4% 160px 4%;}
+.cal{height: 100%; color: #fff;}
+
+/* 공통 아키텍쳐 */
+.box_25{height: 100%; max-height: 700px; font-size: 0;}
+.box_25 > li{position: relative; height: 19.6%; min-height: 35px; margin-top: 0.5%;}
+.box_25 > li:first-child{margin-top: 0;}
+.box_25 > li a{display: inline-flex; justify-content: center; align-items: center; width: 24.625%; height: 100%; margin-left: 0.5%; font-size: 21px; text-align: center; background-color: #333;}
+.box_25 > li a:first-child{margin-left: 0;}
+.box_25 > li a:hover{background-color: #5db09d; box-shadow: 3px 3px 20px #000;}
+
+/* inputBox */
+.inputBox{margin-bottom: 10px;}
+.inputBox .historyNum{overflow: hidden; height: 24px; text-align: right; text-overflow: ellipsis; white-space: nowrap; }
+.inputBox .inputNum{width: 100%; padding: 0 2%; font-size: 32px; font-weight: 700; text-align: right;}
+
+/* sumWrap */
+.sumWrap{margin-top: 3.3%; text-align: center;}
+.sumWrap .sum{display: block; height: 40px; line-height: 40px; font-size: 24px; background-color: #2f2f2f;}
+.sumWrap .sum:hover{background-color: #5db09d;}
+
+/*
+	color
+	#fff - 텍스트 - 흰색
+	#212121 - 배경 - 검은색
+	#5db09d - 포커스 - 연두색
+*/

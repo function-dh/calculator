@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>계산기</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="stylesheet" href="css/cal.css" type="text/css">
+	<script src="js/cal.js"></script>
+</head>
+<body>
+	<div id="wrap" class="wrap">
+		<div class="calWrap">
+			<div class="cal">
+				<!-- inputBox -->
+				<div class="inputBox">
+					<p class="historyNum"></p>
+					<input type="text" id="inputNum" class="inputNum" name="inputNum" value="0" readonly>
+				</div>
+				<!-- // inputBox -->
+				<!-- calBtn -->
+				<ul class="calBtn box_25">
+					<li class="resetBox">
+						<a href="#" class="btnNowReset">CE</a>
+						<a href="#" class="btnReset">C</a>
+						<a href="#" class="btnDel">삭제</a>
+						<a href="#" class="btnHistory">기록</a>
+					</li>
+					<li>
+						<a href="#" class="num">7</a>
+						<a href="#" class="num">8</a>
+						<a href="#" class="num">9</a>
+						<a href="#" class="division">/</a>
+					</li>
+					<li>
+						<a href="#" class="num">4</a>
+						<a href="#" class="num">5</a>
+						<a href="#" class="num">6</a>
+						<a href="#" class="multi">x</a>
+					</li>
+					<li>
+						<a href="#" class="num">1</a>
+						<a href="#" class="num">2</a>
+						<a href="#" class="num">3</a>
+						<a href="#" class="minus">-</a>
+					</li>
+					<li>
+						<a href="#" class="negative">+/-</a>
+						<a href="#" class="num">0</a>
+						<a href="#" class="integer">.</a>
+						<a href="#" class="plus">+</a>
+					</li>
+				</ul>
+				<!-- // calBtn -->
+				<!-- sumWrap -->
+				<div class="sumWrap">
+					<a href="#" class="sum">=</a>
+				</div>
+				<!-- // sumWrap -->
+			</div>
+		</div>
+	</div>
+</body>
+</html>

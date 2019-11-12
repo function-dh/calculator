@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&display=swap&subset=korean');
+/* noto-sans-kr-regular - korean_latin */
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/noto-sans-kr-v11-korean_latin-regular.eot'); /* IE9 Compat Modes */
+	src: local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
+		 url('../fonts/noto-sans-kr-v11-korean_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+}
+  /* noto-sans-kr-700 - korean_latin */
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/noto-sans-kr-v11-korean_latin-700.eot'); /* IE9 Compat Modes */
+	src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
+		 url('../fonts/noto-sans-kr-v11-korean_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+}
+
+/* common */
+body,header,footer,section,nav,article,aside,a,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,legend,label,input,span,img,strong,em,video,address,i,table,colgroup,col,caption,tr,th,td,tbody,thead,tfoot,select,option,button,textarea{margin:0; padding:0; -webkit-box-sizing: border-box; box-sizing:border-box;}
+header,footer,article,section,nav,aside{display:block;}
+input,textarea,select,button,table{font-size: inherit; font-family: inherit; line-height: inherit;}
+ul,ol{list-style:none;}
+img,fieldset{border:none;}
+h1,h2,h3,h4,h5,h6,strong{font-weight:normal;}
+address,em{font-style:normal;}
+input,img,i,select{vertical-align:middle;}
+table{border-collapse:collapse; border-spacing: 0;}
+a{color: inherit; text-decoration: none;}
+legend,caption,.skip{overflow:hidden; visibility:hidden; position:absolute; left:-9999px; width:1px; height:1px; font-size:0; line-height:0;}
+
+/* clearfix */
+.clearfix:after{content:''; display:block; clear:both;}
+
+/* skipnavi */
+.skipnavi{position:absolute; width:100%; z-index:999;}
+.skipnavi a{position:absolute; top:-100px;}
+.skipnavi a:hover,
+.skipnavi a:active,
+.skipnavi a:focus{display:block; position:absolute; top:0; width:100%; padding:15px 0; font-size:16px; text-align:center; background:#333; color:#fff;}
+
+/* fonts */
+body{font-family:'Noto Sans KR', '돋움', dotum, sans-serif; font-size:16px; line-height: 1.5; letter-spacing: -1px; color:#333;}
