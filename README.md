@@ -1,4 +1,6 @@
 # calculator
+:heavy_plus_sign::heavy_minus_sign::heavy_division_sign::heavy_multiplication_x:
+
 계산기 JS로 제작
 
 ----------수정 해야할점-------------  
