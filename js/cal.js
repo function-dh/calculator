@@ -16,7 +16,7 @@ window.onload = function(){
 
 	// 숫자 입력 함수
 	const inputNum = cal.prototype.inputNum = function(n){
-		let num = document.querySelectorAll('.box_25 li .num')
+		const num = document.querySelectorAll('.box_25 li .num')
 		
 		function numBox(i){
 			finishCheck()
@@ -38,18 +38,18 @@ window.onload = function(){
 	
 	// 기능 버튼들
 	cal.prototype.calBtn = function(){
-		let btnNowReset = document.querySelector('.resetBox .btnNowReset')
-		let btnReset = document.querySelector('.resetBox .btnReset')
-		let btnDel = document.querySelector('.resetBox .btnDel')
+		const btnNowReset = document.querySelector('.resetBox .btnNowReset')
+		const btnReset = document.querySelector('.resetBox .btnReset')
+		const btnDel = document.querySelector('.resetBox .btnDel')
 		// 기록 미구현
-		let btnHistory = document.querySelector('.resetBox .btnHistory')
-		let plus = document.querySelector('.plus')
-		let minus = document.querySelector('.minus')
-		let multi = document.querySelector('.multi')
-		let division = document.querySelector('.division')
-		let btnsum = document.querySelector('.sumWrap .sum')
-		let negative = document.querySelector('.negative')
-		let integer = document.querySelector('.integer')
+		const btnHistory = document.querySelector('.resetBox .btnHistory')
+		const plus = document.querySelector('.plus')
+		const minus = document.querySelector('.minus')
+		const multi = document.querySelector('.multi')
+		const division = document.querySelector('.division')
+		const btnsum = document.querySelector('.sumWrap .sum')
+		const negative = document.querySelector('.negative')
+		const integer = document.querySelector('.integer')
 		
 		// 백스페이스
 		function _btnDel(){
@@ -236,4 +236,9 @@ window.onload = function(){
 3. 키보드와 마우스 입력 번갈아가면서 사용하다 보면 스크립트 29라인 for문이 다중 클릭됨
 4. 텐키 부분 키입력 빠짐
 5. document.keydown 부분에 이벤트 취소 시키는 구문을 넣어서 기본기능이 동작하지 않음(새로고침 등)
+
+
+* 2019-11-13 수정 내용
+1. 의미없이 쓴 let 같은 경우 const로 변경
+
  */
